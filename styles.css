@@ -39,4 +39,10 @@
 	top:1px;
 }
 
+@media (min-width: 576px) { 
+    #hola{
+        height: 100%;
+        background-color: aqua;
+    }
+}
 
