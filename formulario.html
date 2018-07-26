@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 <meta charset="utf-8">
-<script src="js/jquery-3.3.1.min.js" ></script>
-<script src="js/index.js"></script>
+<script src="jquery-3.3.1.min.js" ></script>
+<script src="form.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -28,39 +28,39 @@
     </div>
   </div>
             </nav>
-            <div class="container">
-                <div class="row">
-                    
-            <div style="background-color: white" class="jumbotron col-md-12 col-sm-12 col-12" >
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8 col-sm-12 center-block col-sm-12">
-    <img class= "col-sm-12 img-responsive" src="images/TITULO.png">
-        </div>
-        <div class="col-md-2"></div>
-                </div>
-  <p style="text-align: center" class="lead" >Soy un estudiante de bachillerato de informática, realizando un curso de diseño web de Ceibal con apoyo de Inefop</p>
-  <hr class="my-4">
-  <p style="text-align: center">Mi currículum</p>
-    <center>
-  <a   class="col-md-2 col-md-offset-5 btn btn-success btn-lg" href="CV%20IGNACIO%20FUENTES%202018%20(2)%20(1).pdf" role="button">Click aquí</a>
-                </center>
-            </div>
-            
-            <div class="container-fluid">
-         
-                <div class="row">
-                   <div class="col-md-2"></div>
-                    <div class="col-md-8 col-sm-12  center-block col-sm-12"><img class="img-responsive col-sm-12"  src="images/TITULO3.png"></div>
-                    <div class="col-md-2"></div>
-                <div class="row">
-                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12"  src="images/porcentajes/htmlhab.png"></div>
-                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/csshab.png"></div>
-                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/jshab.png"></div>
-                    </div>        
-            </div>
-            </div>
-            </div>
-            </div>
+           <div id="contactame" class="row mx-md-5 mx-1 px-3 px-md-5">
+			<div class="container-fluid">
+				<h1 class="display-4 mb-5">Contáctame</h1>
+				<form id="form" method="POST">
+				<div class="container">
+					<div class="input-group mb-4">
+						<div class="input-group-prepend">
+	   						<span class="input-group-text" id="basic-addon1">Nombre</span>
+						</div>
+						<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre Apellido" required>
+					</div>
+					<div class="input-group mb-4">
+						<div class="input-group-prepend">
+	   						<span class="input-group-text" id="basic-addon1">Email</span>
+						</div>
+						<input type="email" name="email" id="email" class="form-control" placeholder="email@ejemplo.com" required>
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+	   						<span class="input-group-text" id="basic-addon1">Asunto</span>
+						</div>
+						<input type="text" name="asunto" id="asunto" class="form-control" placeholder="¿Qué puedo hacer por ti?" required>
+					</div>
+					<label><p class="lead"><b>Mensaje</b></p></label>
+					<div class="input-group mb-2">
+							<textarea placeholder="Déjame tu mensaje aquí" class="form-control mb-3" id="textarea" rows="5" required></textarea>
+					</div>
+					<input class="btn btn-primary mr-3" type="submit" value="Enviar">							
+					<span class="formresponse"></span>
+				</div>
+				</form>
+			</div>
+		</div>
+	
     </body>
 </html>
