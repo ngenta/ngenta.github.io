@@ -1,9 +1,8 @@
-$(document).ready(function(){
 $(function($){
     $("#form").submit(function(event){
       event.preventDefault();
         $.ajax({
-          url: "https://formspree.io/nachofuentes7164@gmail.com", 
+          url: "https://formspree.io/nickstratos@live.com", 
           method: "POST",
           data: {
             nombre: $("#nombre").val(),
@@ -23,4 +22,3 @@ $(function($){
         });
     });
 });
-    });
