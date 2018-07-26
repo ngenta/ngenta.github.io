@@ -3,8 +3,8 @@ $(function($){
     $("#form").submit(function(event){
       event.preventDefault();
         $.ajax({
-          url: "https://formspree.io/nachofuentes7164@gmail.com", 
-          method: "POST",
+          url: "https://formspree.io/nachofuentes7164@gmail.com"
+          method: "POST"
           data: {
             nombre: $("#nombre").val(),
             email: $("#email").val(),
