@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <script src="jquery-3.3.1.min.js" ></script>
 <script src="form.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,39 +27,11 @@
     </div>
   </div>
             </nav>
-           <div id="contactame" class="row mx-md-5 mx-1 px-3 px-md-5">
-			<div class="container-fluid">
-				<h1 class="display-4 mb-5">Contáctame</h1>
-				<form id="form" method="POST">
-				<div class="container">
-					<div class="input-group mb-4">
-						<div class="input-group-prepend">
-	   						<span class="input-group-text" id="basic-addon1">Nombre</span>
-						</div>
-						<input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre Apellido" required>
-					</div>
-					<div class="input-group mb-4">
-						<div class="input-group-prepend">
-	   						<span class="input-group-text" id="basic-addon1">Email</span>
-						</div>
-						<input type="email" name="email" id="email" class="form-control" placeholder="email@ejemplo.com" required>
-					</div>
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
-	   						<span class="input-group-text" id="basic-addon1">Asunto</span>
-						</div>
-						<input type="text" name="asunto" id="asunto" class="form-control" placeholder="¿Qué puedo hacer por ti?" required>
-					</div>
-					<label><p class="lead"><b>Mensaje</b></p></label>
-					<div class="input-group mb-2">
-							<textarea placeholder="Déjame tu mensaje aquí" class="form-control mb-3" id="textarea" rows="5" required></textarea>
-					</div>
-					<input class="btn btn-primary mr-3" type="submit" value="Enviar">							
-					<span class="formresponse"></span>
-				</div>
-				</form>
-			</div>
-		</div>
+          <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
 	
     </body>
 </html>
