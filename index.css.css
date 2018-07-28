@@ -1,0 +1,48 @@
+#primero {
+    color: #9FFF9C;
+}
+#segundo{
+    color: #94EF91
+}
+#tercero{
+    color: #6DF269
+}
+#cuarto{
+    color: #37DD32
+}
+#imagen{
+    margin-left: 6px;
+    margin-top: 50%;
+}
+#boton{
+  
+ margin-top: 20px;
+    
+}
+.myButton {
+	background-color:#06f922;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 59px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#06f922;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@media (max-width: 576px) { 
+    #index{
+        margin-top: 10%;
+    }
+    }
+}
+
