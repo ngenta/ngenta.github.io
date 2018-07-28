@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="index.css">
 <meta charset="utf-8">
 <script src="jquery-3.3.1.min.js" ></script>
 <script src="form.js"></script>
@@ -28,8 +28,15 @@
   </div>
             </nav>
 <form method="POST" action="https://formspree.io/nachofuentes7164@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
+   <div class="form-group">
+    <label for="exampleInputEmail1">E-mail</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe aqui tu e-mail">
+    
+  </div>
+    <div class="input-group">
+        <textarea placeholder="Escribe aqui tu mensaje" class="form-control mb-3" id="textarea" rows="5" required></textarea>
+    </div>
+ 
   <button type="submit">Send</button>
 </form>
 	
