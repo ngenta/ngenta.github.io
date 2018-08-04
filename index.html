@@ -11,7 +11,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>    
-        <body style="background-color:#C0E8B9">
+        <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color:#C0E8B9">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"> <img src="images/yoshicon.gif"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,11 +20,11 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a id="primero" class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
-      <a id="segundo" class="nav-item nav-link" href="portafolio.html">Portafolio</a>
+      <a id="segundo" class="nav-item nav-link" href="#portafolio">Portafolio</a>
       <a id="tercero" class="nav-item nav-link" href="#">Proyecto personal</a>
-      <a id="cuarto" class="nav-item nav-link" href="acercademi.html">Acerca de mí</a>
-      <a id="cuarto" class="nav-item nav-link" href="PoE.html">Part of english</a>
-    <a id="cuarto" class="nav-item nav-link" href="formulario.html">Contactame</a>
+      <a id="cuarto" class="nav-item nav-link" href="#acercademi">Acerca de mí</a>
+      <a id="cuarto" class="nav-item nav-link" href="#poe">Part of english</a>
+    <a id="cuarto" class="nav-item nav-link" href="#contacto">Contactame</a>
     </div>
   </div>
 </nav>
@@ -32,7 +32,7 @@
   
     <div class="container-fluid">
         <div class="row">
-            <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 12%"; class="jumbotron">
+            <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8;  margin-top: 12%; height: 350px"; class="jumbotron">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2"></div>
@@ -48,6 +48,314 @@
 </div>
         </div>
             </div>
+            <!-- PROYECTO PERSONAL -->
+            <!-- PROYECTO PERSONAL -->
+                    <div id="portafolio" class="container">
+            <div class="row">
+         <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 8%; height: 800px"; class="jumbotron">
+             
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-12 center-block col-sm-12">
+    <img class= "col-sm-12 img-responsive" src="images/portafolio.png">
+        </div>
+        <div class="col-md-2"></div>
+                </div>
+  <p style="text-align: center; " class="lead">A lo largo del curso de JAP hemos hechos varios trabajos, páginas para determinadas cosas, ejercicios y más</p>
+  <hr class="my-4">
+  <p style="text-align: center; ">Aquí debajo se encuentran algunos de mis trabajos</p>
+  <div class="row">
+   
+        
+      <div class="container-fluid">
+    <div class="row">
+        <div class="card col-md-4 col-sm-12 col-lg-4" style="width: 400px; height: 24rem;">
+  <img class="card-img-top" src="images/wk2c400px.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Trabajo de CSS</h5>
+    <p class="card-text">Éste es un trabajo aplicando estilos de CSS que el profesor nos indicó</p>
+    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal1">Ampliar vista</a>
+     </div>
+   </div>
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class= "modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Trabajo de CSS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body fluid">
+          
+        <img class="img-responsive col-sm 12 col-md-12" src="images/wk2cmodal.png">
+              
+          </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+   
+      </div>
+    </div>
+  </div>
+</div>
+                <div class="card col-md-4 col-sm-12 col-lg-4" style="width: 400px; height: 24rem;">
+  <img class="card-img-top" src="images/wk1c400px.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Institución de inglés</h5>
+    <p class="card-text">Simulación en la que nos contrataban para crear una página para un instituto de inglés</p>
+    <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal2">Ampliar vista</a>
+  </div>
+</div>
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class= "modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Institución de inglés</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body fluid">
+          
+        <img class="img-responsive col-sm 12 col-md-12" src="images/wk1cmodal.png">
+              
+          </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+   
+      </div>
+    </div>
+  </div>
+</div>
+                <div class="card col-md-4 col-sm-12 col-lg-4" style="width: 400px; height: 24rem;">
+  <img class="card-img-top" src="images/wk3c400px.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Estudio jurídico</h5>
+    <p class="card-text">Esta página se la hice a un familiar el cual necesitaba promocionar su estudio jurídico</p>
+    <a href="#" class="btn btn-success" data-toggle="modal"data-target="#modal3">Ampliar vista</a>
+  </div>
+</div>
+           <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class= "modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Estudio jurídico</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body fluid">
+          
+        <img class="img-responsive col-sm 12 col-md-12" src="images/wk3cmodal.png">
+              
+          </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+   
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+  </div>
+</div>      
+</div>
+             <br>
+             <center>
+  <a   class="col-md-2 col-md-offset-5 btn btn-success btn-lg" href="github.com/ngenta" role="button">Perfil de github</a>
+                </center>
+             </div>
+            </div>
+            </div>
+    <div id="acercademi" class="container">
+                <div class="row">
+                    
+            <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 5%"; class="jumbotron">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-12 center-block col-sm-12">
+    <img class= "col-sm-12 img-responsive" src="images/TITULO.png">
+        </div>
+        <div class="col-md-2"></div>
+                </div>
+  <p style="text-align: center" class="lead" >Soy un estudiante de bachillerato de informática, realizando un curso de diseño web de Ceibal con apoyo de Inefop</p>
+  <hr class="my-4">
+  <p style="text-align: center">Mi currículum</p>
+    <center>
+  <a   class="col-md-2 col-md-offset-5 btn btn-success btn-lg" href="CV%20IGNACIO%20FUENTES%202018%20(2)%20(1).pdf" role="button">Click aquí</a>
+                </center>
+            </div>
+                    
+                
+            
+            <div style="margin-top: 50px;" class="container-fluid">
+         
+                <div class="row">
+                   <div class="col-md-2"></div>
+                    <div class="col-md-8 col-sm-12  center-block col-sm-12"><img class="img-responsive col-sm-12"  src="images/TITULO3.png"></div>
+                    <div class="col-md-2"></div>
+                <div class="row">
+                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12"  src="images/porcentajes/htmlhab.png"></div>
+                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/csshab.png"></div>
+                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/jshab.png"></div>
+                    </div>        
+            </div>
+            </div>
+            </div>
+            </div>
+             <div id="poe" class="container">
+        <div class="row">
+            <div class="col-md-12"><img style="margin-left: 27%" src="images/fuente.png"></div>
+            
+            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
+        <div class="col-md-11">
+            
+            <div id="contenedor"> <p style="font-size: 30px">¿What are your strengths?</p>
+            
+            <p id="parrafo" style="font-size: 25px;">I mean my strengths are: My proactivity, because I am a person who when has a project in mind, works so hard, and it does not stop until it achieves its goals.
+            Another strenght that I have is my responsabilitie, because, I leave secondary things if I have a work for made, and I managed my times well</p>
+            </div>
+            </div>
+            
+        <div class="container">
+        <div class="row"> 
+           
+            
+            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
+        <div class="col-md-11">
+            <div id="contenedor2">
+            <p  style="font-size: 30px">¿What are your weaknesses?</p>
+            
+            <p id="parrafo2" style="font-size: 25px; background-color:palegreen">I mean my weaknesses are: my capacity of resolution, because, I can solve a problem, but I can delay so much time, and it is no good. And another weakness is, my way of I works, lights out, coffe, and in the night, this isn´t good jaja!</p>
+            </div>
+            </div>  
+            </div>
+            
+        </div>
+             <div class="container">
+        <div class="row"> 
+           
+            
+            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
+        <div class="col-md-11">
+            <p style="font-size: 30px ">What are your goals in this career?</p>
+            <br>
+            <p style="font-size: 25px; background-color:palegreen">My goals in this carrer are, enter the engineering faculty, finish the carrer, and work design web pages!</p></div>  
+            </div>
+            
+        </div> <div class="container">
+        <div class="row"> 
+           
+            
+            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
+        <div class="col-md-11">
+            <p style="font-size: 30px">Where do you see yourself in 5 years?</p>
+            <br>
+            <p style="font-size: 25px; background-color:palegreen">In 5 years I see myself, study in the engineering faculty, in a work of 6 hours and living with my family, how right now</p>
+            </div>  
+            </div>
+            
+        </div> <div class="container">
+        <div class="row"> 
+           
+            
+            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
+        <div class="col-md-11">
+            <p style="font-size: 30px">What do you look for in a workplace?</p>
+            <br>
+            <p style="font-size: 25px; background-color:palegreen">Hmmm, i never think this, I would like to create projects</p>
+            </div>  
+            </div>
+            
+        </div>
+            <div class="container">
+        <div class="row"> 
+           
+            
+            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
+        <div class="col-md-11">
+            <p style="font-size: 30px">Do you think you work well in a team?</p>
+            <br>
+            <p style="font-size: 25px; background-color:palegreen">Yes! think I work so good in a team, because it does not cost me to relate to others</p>
+            </div>  
+            </div>
+            
+        </div>
+             <div class="container">
+        <div class="row"> 
+           
+            
+            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
+        <div class="col-md-11">
+            <p style="font-size: 30px"> What role do you usually take on in a team?</p>
+            <br>
+            <p style="font-size: 25px; background-color:palegreen">Usually I take the leader role, because I easily spread the desire to work</p>
+            </div>  
+            </div>
+            
+        </div>
+            
+            
+            
+            
+            
+        </div>    
+        </div>   
+            <div id="contacto" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8;height: 500px; margin-top: 11%"; class="jumbotron">
+    <div  class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-12 center-block col-sm-12">
+    <img class= "col-sm-12 img-responsive" src="images/contactame.png">
+        </div>
+        <div class="col-md-2"></div>
+                </div>
+  <p style="text-align: center" class="lead" >Puedes contactarme escribiendo tu e-mail y dejando un mensaje, esto llegara a mi correo y me poncdré en contacto contigo</p>
+  <hr class="my-4">
+  <p style="text-align: center">Haz click aquí debajo y se desplegara el formulario de contacto</p>
+    <center>
+ <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
+  Click aquí
+</button>
+        
+                </center>
+            </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Formulario de contacto</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="POST" action="https://formspree.io/nachofuentes7164@gmail.com">
+   <div class="form-group">
+    <label for="exampleInputEmail1"><h6>Llena el formulario</h6></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe aqui tu e-mail">
+    
+  </div>
+    <div class="input-group">
+        <textarea placeholder="Escribe aqui tu mensaje" class="form-control mb-3" id="textarea" rows="5" required></textarea>
+    </div>
+ 
+  <button type="submit" class="btn btn-success">Enviar</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+        
+    
+            
    
            
             

@@ -1,0 +1,39 @@
+#primero {
+    color: #9FFF9C;
+}
+#segundo{
+    color: #94EF91
+}
+#tercero{
+    color: #6DF269
+}
+#cuarto{
+    color: #37DD32
+}
+
+#contenedor{
+  
+}
+
+#parrafo{
+  display: none;
+    background-color: white;
+}
+
+#contenedor:hover > #parrafo{
+    
+    display: block;
+    background-color: palegreen;
+   
+}
+#parrafo2{
+  display: none;
+    background-color: white;
+}
+
+#contenedor2:hover > #parrafo2{
+    
+    display: block;
+    background-color: palegreen;
+   
+}
