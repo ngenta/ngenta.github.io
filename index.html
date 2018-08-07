@@ -10,16 +10,22 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>    
+    </head>
+    <style>
+   
+      
+    </style>
+    
         <body data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color:#C0E8B9">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top
+              ">
   <a class="navbar-brand" href="#"> <img src="images/yoshicon.gif"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a id="primero" class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+      <a id="primero" class="nav-item nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
       <a id="segundo" class="nav-item nav-link" href="#portafolio">Portafolio</a>
       <a id="tercero" class="nav-item nav-link" href="#">Proyecto personal</a>
       <a id="cuarto" class="nav-item nav-link" href="#acercademi">Acerca de mí</a>
@@ -29,10 +35,9 @@
   </div>
 </nav>
    
-  
-    <div class="container-fluid">
+  <div id="inicio" class="container-fluid">
         <div class="row">
-            <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8;  margin-top: 12%; height: 350px"; class="jumbotron">
+            <div id="jumbobienvenido" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8;  margin-top: 12%; height: 350px"; class="jumbotron">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2"></div>
@@ -48,11 +53,116 @@
 </div>
         </div>
             </div>
-            <!-- PROYECTO PERSONAL -->
-            <!-- PROYECTO PERSONAL -->
-                    <div id="portafolio" class="container">
+            
+            <div id="acercademi" class="container">
+                <div class="row">
+                    
+            <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 5%"; class="jumbotron">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-12 center-block col-sm-12">
+    <img class= "col-sm-12 img-responsive" src="images/TITULO.png">
+        </div>
+        <div class="col-md-2"></div>
+                </div>
+  <p style="text-align: center" class="lead" >Soy un estudiante de bachillerato de informática, realizando un curso de diseño web de Ceibal con apoyo de Inefop</p>
+  <hr class="my-4">
+  <p style="text-align: center">Mi currículum</p>
+    <center>
+  <a   class="col-md-2 col-md-offset-5 btn btn-success btn-lg" href="CV%20IGNACIO%20FUENTES%202018%20(3).pdf" role="button">Click aquí</a>
+                </center>
+            </div>
+                    
+                
+            
+            <div style="margin-top: 50px;" class="container-fluid">
+         
+                <div class="row">
+                   <div class="col-md-2"></div>
+                    <div class="col-md-8 col-sm-12  center-block col-sm-12"><img class="img-responsive col-sm-12"  src="images/TITULO3.png"></div>
+                    <div class="col-md-2"></div>
+                <div class="row">
+                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12"  src="images/porcentajes/htmlhab.png"></div>
+                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/csshab.png"></div>
+                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/jshab.png"></div>
+                    </div>        
+            </div>
+            </div>
+            </div>
+            </div>
+             <div id="poe" class="container">
+       
+    <div class="container">
+    <div class="row">             
+<div class="col-md-2 col-sm-2"></div>
+
+
+<div  class="col-md-7 col-sm-8 ">
+    
+    <img id="divabme" class="col-sm-12 col-md-12 img-responsive "  src="images/aboutme.png">
+    
+        </div>
+                 </div>
+<div class="col-md-2 col-sm-2"></div>
+                 </div>
+                 </div>
+                 <button class="accordion"><h3>¿What are your strengths?</h3></button>
+<div class="panel">
+  <h5>I mean my strengths are: My proactivity, because I am a person who when has a project in mind, works so hard, and it does not stop until it achieves its goals.
+            Another strenght that I have is my responsabilitie, because, I leave secondary things if I have a work for made, and I managed my times well</h5>
+</div>
+   <button class="accordion"><h3>¿What are your weaknesses?</h3></button>
+<div class="panel">
+  <h5>I mean my weaknesses are: my capacity of resolution, because, I can solve a problem, but I can delay so much time, and it is no good. And another weakness is, my way of I works, lights out, coffe, and in the night, this isn´t good jaja!</h5>
+</div>
+     <button class="accordion"><h3>What are your goals in this career?</h3></button>
+<div class="panel">
+  <h5>My goals in this carrer are, enter the engineering faculty, finish the carrer, and work design web pages!</h5>
+</div>
+     <button class="accordion"><h3>Where do you see yourself in 5 years?</h3></button>
+<div class="panel">
+  <h5>In 5 years I see myself, study in the engineering faculty, in a work of 6 hours and living with my family, how right now</h5>
+</div>
+                 
+         <button class="accordion"><h3>What do you look for in a workplace?</h3></button>
+<div class="panel">
+  <h5>Hmmm, i never think this, I would like to create projects</h5>
+</div>
+                 
+     <button class="accordion"><h3>Do you think you work well in a team?</h3></button>
+<div class="panel">
+  <h5>Yes! think I work so good in a team, because it does not cost me to relate to others</h5>
+</div>
+                 
+     <button class="accordion"><h3>What role do you usually take on in a team?</h3></button>
+<div class="panel">
+  <h5>Usually I take the leader role, because I easily spread the desire to work</h5>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+
+
+            
+          
+            <div id="portafolio" class="container">
             <div class="row">
-         <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 8%; height: 800px"; class="jumbotron">
+         <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 8%; "; class="jumbotron">
              
       <div class="row">
         <div class="col-md-2"></div>
@@ -171,142 +281,31 @@
              </div>
             </div>
             </div>
-    <div id="acercademi" class="container">
-                <div class="row">
-                    
-            <div id="jumbo" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 5%"; class="jumbotron">
+            <div id="proyecto" class="container">
+            
+            <div class="row">
+    <div id="" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 11%"; class="jumbotron">
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 col-sm-12 center-block col-sm-12">
-    <img class= "col-sm-12 img-responsive" src="images/TITULO.png">
+    <img class= "col-sm-12 img-responsive" src="images/ppfxd.png">
         </div>
         <div class="col-md-2"></div>
                 </div>
-  <p style="text-align: center" class="lead" >Soy un estudiante de bachillerato de informática, realizando un curso de diseño web de Ceibal con apoyo de Inefop</p>
+  <p style="text-align: center" class="lead">A continuación planteare mi proyecto personal</p>
   <hr class="my-4">
-  <p style="text-align: center">Mi currículum</p>
-    <center>
-  <a   class="col-md-2 col-md-offset-5 btn btn-success btn-lg" href="CV%20IGNACIO%20FUENTES%202018%20(2)%20(1).pdf" role="button">Click aquí</a>
-                </center>
-            </div>
-                    
-                
-            
-            <div style="margin-top: 50px;" class="container-fluid">
-         
-                <div class="row">
-                   <div class="col-md-2"></div>
-                    <div class="col-md-8 col-sm-12  center-block col-sm-12"><img class="img-responsive col-sm-12"  src="images/TITULO3.png"></div>
-                    <div class="col-md-2"></div>
-                <div class="row">
-                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12"  src="images/porcentajes/htmlhab.png"></div>
-                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/csshab.png"></div>
-                <div class="col-md-4 col-sm-12"><img class="img-responsive col-sm-12" src="images/porcentajes/jshab.png"></div>
-                    </div>        
+  <p style="text-align: center">Explicare el objetivo, como planeo lograrlo, los administración de recursos y las competencias transversales que me ayudarían a lograrlo</p>
+    
             </div>
             </div>
             </div>
-            </div>
-             <div id="poe" class="container">
-        <div class="row">
-            <div class="col-md-12"><img style="margin-left: 27%" src="images/fuente.png"></div>
+   
+   
             
-            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
-        <div class="col-md-11">
-            
-            <div id="contenedor"> <p style="font-size: 30px">¿What are your strengths?</p>
-            
-            <p id="parrafo" style="font-size: 25px;">I mean my strengths are: My proactivity, because I am a person who when has a project in mind, works so hard, and it does not stop until it achieves its goals.
-            Another strenght that I have is my responsabilitie, because, I leave secondary things if I have a work for made, and I managed my times well</p>
-            </div>
-            </div>
-            
-        <div class="container">
-        <div class="row"> 
-           
-            
-            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
-        <div class="col-md-11">
-            <div id="contenedor2">
-            <p  style="font-size: 30px">¿What are your weaknesses?</p>
-            
-            <p id="parrafo2" style="font-size: 25px; background-color:palegreen">I mean my weaknesses are: my capacity of resolution, because, I can solve a problem, but I can delay so much time, and it is no good. And another weakness is, my way of I works, lights out, coffe, and in the night, this isn´t good jaja!</p>
-            </div>
-            </div>  
-            </div>
-            
-        </div>
-             <div class="container">
-        <div class="row"> 
-           
-            
-            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
-        <div class="col-md-11">
-            <p style="font-size: 30px ">What are your goals in this career?</p>
-            <br>
-            <p style="font-size: 25px; background-color:palegreen">My goals in this carrer are, enter the engineering faculty, finish the carrer, and work design web pages!</p></div>  
-            </div>
-            
-        </div> <div class="container">
-        <div class="row"> 
-           
-            
-            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
-        <div class="col-md-11">
-            <p style="font-size: 30px">Where do you see yourself in 5 years?</p>
-            <br>
-            <p style="font-size: 25px; background-color:palegreen">In 5 years I see myself, study in the engineering faculty, in a work of 6 hours and living with my family, how right now</p>
-            </div>  
-            </div>
-            
-        </div> <div class="container">
-        <div class="row"> 
-           
-            
-            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
-        <div class="col-md-11">
-            <p style="font-size: 30px">What do you look for in a workplace?</p>
-            <br>
-            <p style="font-size: 25px; background-color:palegreen">Hmmm, i never think this, I would like to create projects</p>
-            </div>  
-            </div>
-            
-        </div>
-            <div class="container">
-        <div class="row"> 
-           
-            
-            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
-        <div class="col-md-11">
-            <p style="font-size: 30px">Do you think you work well in a team?</p>
-            <br>
-            <p style="font-size: 25px; background-color:palegreen">Yes! think I work so good in a team, because it does not cost me to relate to others</p>
-            </div>  
-            </div>
-            
-        </div>
-             <div class="container">
-        <div class="row"> 
-           
-            
-            <div class="col-md-1" > <img src="images/puntoindice.png"></div>
-        <div class="col-md-11">
-            <p style="font-size: 30px"> What role do you usually take on in a team?</p>
-            <br>
-            <p style="font-size: 25px; background-color:palegreen">Usually I take the leader role, because I easily spread the desire to work</p>
-            </div>  
-            </div>
-            
-        </div>
-            
-            
-            
-            
-            
-        </div>    
-        </div>   
-            <div id="contacto" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8;height: 500px; margin-top: 11%"; class="jumbotron">
-    <div  class="row">
+                             <div id="contacto" class="container">
+                                 <div class="row">
+               <div id="" class="col-12 col-sm-12 col-md-12" style="background-color: 255,255,255,8; margin-top: 11%"; class="jumbotron">
+    <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8 col-sm-12 center-block col-sm-12">
     <img class= "col-sm-12 img-responsive" src="images/contactame.png">
@@ -323,7 +322,7 @@
         
                 </center>
             </div>
-            <div class="modal fade col-sm-12" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -332,7 +331,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body col-sm-12">
+      <div class="modal-body">
         <form method="POST" action="https://formspree.io/nachofuentes7164@gmail.com">
    <div class="form-group">
     <label for="exampleInputEmail1"><h6>Llena el formulario</h6></label>
@@ -353,8 +352,9 @@
     </div>
   </div>
 </div>
-        
-    
+            </div>
+            </div>
+	
             
    
            

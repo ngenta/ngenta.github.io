@@ -15,25 +15,3 @@
   
 }
 
-#parrafo{
-  display: none;
-    background-color: white;
-}
-
-#contenedor:hover > #parrafo{
-    
-    display: block;
-    background-color: palegreen;
-   
-}
-#parrafo2{
-  display: none;
-    background-color: white;
-}
-
-#contenedor2:hover > #parrafo2{
-    
-    display: block;
-    background-color: palegreen;
-   
-}
