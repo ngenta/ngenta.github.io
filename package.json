@@ -6,19 +6,6 @@
     "start": "django app"
   },
   "dependencies": {
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'django.contrib.sites',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'posts',
-    'ckeditor',
-    'crispy_forms'
   },
   "engines": {
     "python": "3.8.8",
