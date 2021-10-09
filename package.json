@@ -6,9 +6,6 @@
     "start": "django app"
   },
   "dependencies": {
-    'sqlite'
-    'python'
-    'django'
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
