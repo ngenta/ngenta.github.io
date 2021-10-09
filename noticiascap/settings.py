@@ -26,9 +26,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
     'posts',
     'ckeditor',
     'crispy_forms'
@@ -122,7 +119,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'MEDIA_root')
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
 SITE_ID = 1
