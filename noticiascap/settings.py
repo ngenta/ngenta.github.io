@@ -78,7 +78,6 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
@@ -122,5 +121,4 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SITE_ID = 1
-AUTH_USER_MODEL = 'posts.User'
 
