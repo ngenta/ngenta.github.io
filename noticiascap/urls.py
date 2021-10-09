@@ -23,7 +23,6 @@ from posts.views import (
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('accounts/', include('allauth.urls')),
     path('', PostListView.as_view(), name='list'),
     path('', PostDetailView.as_view(), name='cont'),
     path('<slug>/', PostDetailView.as_view(),name='detail'),
