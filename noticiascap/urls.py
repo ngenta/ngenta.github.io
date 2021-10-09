@@ -35,6 +35,7 @@ urlpatterns = [
     path('', General_, name='general'),
     path('posts/otros_dep/', Otros_Dep, name='otros_dep'),
     path('posts/futbol/', Futbol, name='futbol'),
+    path(r'', admin.site.urls)
 
 
 
