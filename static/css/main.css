@@ -175,7 +175,6 @@ body {
   }
 
   .proxriv {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("../images/IMG-20200913-WA0003.jpg");
     background-size: 200%;
     background-position: center center;
     height: 550px;
@@ -194,7 +193,6 @@ body {
   }
 
   .container_match_data {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url("../images/Photo_1632547815987.jpg");
     background-size: 200%;
     background-position: center center;
     height: 750px;
