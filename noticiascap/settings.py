@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+import django_heroku
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -123,4 +124,4 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1
 AUTH_USER_MODEL = 'posts.User'
-
+django_heroku.settings(locals())
