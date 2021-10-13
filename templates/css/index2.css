@@ -1,3 +1,4 @@
+/*
 body{
   background: black;
 }
@@ -15,10 +16,10 @@ body{
   background: black;
 }
 .carousel-item img{
-  -webkit-transition:all 2s ease; /* Safari y Chrome */
-  -moz-transition:all 2s ease; /* Firefox */
-  -o-transition:all 2s ease; /* IE 9 */
-  -ms-transition:all 2s ease; /* Opera */
+  -webkit-transition:all 2s ease;
+  -moz-transition:all 2s ease; 
+  -o-transition:all 2s ease; 
+  -ms-transition:all 2s ease; 
 }
 
 .carousel-item img:hover{
@@ -253,10 +254,10 @@ h5{
 }
 
 .carta img{
-    -webkit-transition:all 2s ease; /* Safari y Chrome */
-  -moz-transition:all 2s ease; /* Firefox */
-  -o-transition:all 2s ease; /* IE 9 */
-  -ms-transition:all 2s ease; /* Opera */
+    -webkit-transition:all 2s ease; 
+  -moz-transition:all 2s ease; 
+  -o-transition:all 2s ease; 
+  -ms-transition:all 2s ease;
 }
 
 .carta:hover img{
@@ -304,3 +305,4 @@ h5{
 .w{
   width: 20%
 }
+*/
