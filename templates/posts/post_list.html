@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+    
+        {% for object in object_list reversed %}
+        <div class="col-md-3  carta" style="margin: 15px;">
+            
+            <img src={{object.thumbnail.url}} class="imgcarta" width="100%" height="100%" >
+            <div class="infocarta" style="display: flex; flex-direction: column-reverse;" >
+                <a href="{{ object.get_absolute_url }}"><h3 class="titulocarta">{{ object.title }}</h3></a>
+                <div style="display: flex; flex-direction: row;">
+                <span style="color: #FEC900;">Hace {{ object.publish_date|timesince }}</span>
+                <span style="color: #FEC900; margin-left: auto; margin-right: 0;"><i class="fas fa-comments " style="color:#FEC900;"></i>{{ object.get_comment_count }}</span>
+                </div>    
+            </div>
+            
+        </div>
+        {% endfor %}
+
+    
+{% endblock content %}
